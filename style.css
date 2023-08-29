@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(photo_6_2023-08-03_13-48-50.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.select_language {
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 250px;
+}
+.lang{
+    color:mintcream;
+    text-shadow: rgb(5, 5, 5);
+}
+.lang-btn{
+    display: inline-block;
+    padding: 11px 26px;
+    background: indigo;
+    color: white;
+    /* border: 2px solid var(--main-color); */
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all .50s ease; 
+}
+.lang-btn:hover{
+    background: transparent;
+    color: white;
+    box-shadow: 0 0 20px var(--maisn-color);
+}
+.lang-btn:hover{
+    background: var(--main-color);
+    color: white;
+}
+
+@media (max-width:768px) {
+    body {
+        background-size: 900px;
+    }
+}
